@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ask="http://schemas.android.com/apk/res/com.anysoftkeyboard.languagepack.hebrew"
     android:keyWidth="10%p"
     >
     
@@ -17,16 +18,16 @@
     </Row>
     
     <Row>
-        <Key android:codes="1513" android:popupCharacters="&#8362;" android:keyLabel="" android:keyEdgeFlags="left"/>
-        <Key android:codes="1491" android:keyLabel=""/>
-        <Key android:codes="1490" android:keyLabel=""/>
-        <Key android:codes="1499" android:keyLabel=""/>
-        <Key android:codes="1506" android:keyLabel=""/>
-        <Key android:codes="1497" android:keyLabel=""/>
-        <Key android:codes="1495" android:keyLabel=""/>
-        <Key android:codes="1500" android:keyLabel=""/>
-        <Key android:codes="1498" android:keyLabel=""/>
-        <Key android:codes="1507" android:keyLabel="" android:keyEdgeFlags="right"/>
+        <Key android:codes="1513" ask:hintLabel="1 ₪" android:popupCharacters="1&#8362;" android:keyLabel="" android:keyEdgeFlags="left"/>
+        <Key android:codes="1491" android:popupCharacters="2" android:keyLabel=""/>
+        <Key android:codes="1490" android:popupCharacters="3" android:keyLabel=""/>
+        <Key android:codes="1499" android:popupCharacters="4" android:keyLabel=""/>
+        <Key android:codes="1506" android:popupCharacters="5" android:keyLabel=""/>
+        <Key android:codes="1497" android:popupCharacters="6" android:keyLabel=""/>
+        <Key android:codes="1495" android:popupCharacters="7" android:keyLabel=""/>
+        <Key android:codes="1500" android:popupCharacters="8" android:keyLabel=""/>
+        <Key android:codes="1498" android:popupCharacters="9" android:keyLabel=""/>
+        <Key android:codes="1507" android:popupCharacters="0" android:keyLabel="" android:keyEdgeFlags="right"/>
     </Row>
     
     <Row>
